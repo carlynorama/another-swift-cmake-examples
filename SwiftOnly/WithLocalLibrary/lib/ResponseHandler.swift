@@ -1,5 +1,9 @@
 
 
-public func verboseEcho2(_ input:String) {
-    print("you said - \"\(input)\"")
+public struct ResponseHandler {
+    public init() {}
+    public func verboseEcho(_ input:String) {
+        print("you said - \"\(input)\"")
+    }
 }
+
