@@ -1,7 +1,8 @@
 #!/bin/bash
 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 REPOROOT=$(git rev-parse --show-toplevel)
-SRCROOT=$REPOROOT/SwiftOnly/SingleFile
+SRCROOT=$SCRIPT_DIR
 BUILDROOT=$SRCROOT/.build
 
 PROJECT=hello
