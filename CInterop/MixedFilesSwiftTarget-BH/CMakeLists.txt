@@ -13,4 +13,4 @@ set(PATH_TO_BRIDGE_HEADER)
 set(CMAKE_Swift_FLAGS "${CMAKE_Swift_FLAGS} -parse-as-library") 
 
 ## Option 1 for C, treat the header like a bridging header. 
-set(CMAKE_Swift_FLAGS "${CMAKE_Swift_FLAGS} -import-objc-header ${CMAKE_CURRENT_LIST_DIR}/cmath.h")
+set(CMAKE_Swift_FLAGS "${CMAKE_Swift_FLAGS} -import-objc-header ${CMAKE_CURRENT_LIST_DIR}/my_bridge_header.h")

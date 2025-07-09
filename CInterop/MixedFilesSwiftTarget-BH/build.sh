@@ -14,7 +14,7 @@ export PROJECT_NAME=$PROJECT
 mkdir -p $BUILDROOT
 
 ## Must use ninja or xcode as generators if using swift mode
-cmake -v -B $BUILDROOT -G Ninja .
+cmake -B $BUILDROOT -G Ninja .
 
 ## OPTION 1
 ## let cmake build what ninja generated
