@@ -9,6 +9,7 @@ struct Hello {
         print("anything else you'd like to say?")
         if let toEcho = readLine() {
             responder.verboseEcho(toEcho)
+            print(add(5, 2))
         } else {
             print("okay, maybe next time")
         }
