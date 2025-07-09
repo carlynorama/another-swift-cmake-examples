@@ -5,6 +5,8 @@ SRCROOT=$REPOROOT/SwiftOnly/SingleFile
 BUILDROOT=$SRCROOT/.build
 
 PROJECT=hello
+EXPECTED_EXECUTABLE=$BUILDROOT/$PROJECT
+
 export PROJECT_NAME=$PROJECT
 
 #### THE BUILD ####
@@ -19,4 +21,4 @@ cmake -B $BUILDROOT -G Ninja .
 
 ## OPTION 2
 # alternate to below, build with Ninja
-# ninja -C $BUILDROOT $PROJECT
+ninja -C $BUILDROOT $PROJECT
