@@ -1,0 +1,6 @@
+module BackingC {
+  explicit module cmath {
+    header "cmath.h"
+    export *
+  }
+}
