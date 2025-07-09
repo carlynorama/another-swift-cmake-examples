@@ -3,6 +3,8 @@
 - https://github.com/swiftlang/swift-cmake-examples/
 - https://github.com/compnerd/swift-cmake-examples
 
+- https://github.com/carlynorama/swift-cmake
+
 
 - https://forums.swift.org/t/updates-for-swift-in-the-upcoming-cmake-3-29/70154
 
