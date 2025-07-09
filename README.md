@@ -10,3 +10,10 @@
 
 
 - https://github.com/swiftlang/swift-package-manager/blob/main/CMakeLists.txt
+
+
+## Reccomended Order
+
+- SwiftOnly/SingleFile
+- SwiftOnly/WithLocalFile
+- CInterop/MixedFilesSwiftTarget
