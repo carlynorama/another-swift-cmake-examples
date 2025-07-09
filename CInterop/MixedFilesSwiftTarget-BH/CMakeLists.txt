@@ -7,8 +7,6 @@ set(MAIN_TARGET_NAME ${PROJECT_NAME})
 project(${PROJECT_NAME} LANGUAGES C Swift)
 add_executable(${MAIN_TARGET_NAME} Hello.swift SwiftMath.swift cmath.c)
 
-set(PATH_TO_BRIDGE_HEADER)
- 
 ## when using struct with an @main
 set(CMAKE_Swift_FLAGS "${CMAKE_Swift_FLAGS} -parse-as-library") 
 
