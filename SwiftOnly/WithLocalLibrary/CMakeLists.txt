@@ -5,7 +5,10 @@ set(PROJECT_NAME $ENV{PROJECT_NAME})
 set(MAIN_TARGET_NAME ${PROJECT_NAME})
 set(EXAMPLE_LIBRARY_NAME BeholdMyGloriousName)
 
-project(${PROJECT_NAME} LANGUAGES Swift)
+project(${PROJECT_NAME} 
+    LANGUAGES Swift
+    # VERSION 0.1.0
+)
 
 add_subdirectory("lib/")
 add_subdirectory("src/")
