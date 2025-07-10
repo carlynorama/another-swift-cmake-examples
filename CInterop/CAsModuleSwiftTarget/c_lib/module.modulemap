@@ -1,4 +1,4 @@
 module BackingC {
-    header "cmath.h"
+    header "mycmath.h"
     export *
 }
