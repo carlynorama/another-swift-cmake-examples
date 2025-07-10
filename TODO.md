@@ -1,0 +1,7 @@
+- probably shouldn't be using the name cmath
+- example compile def: https://cmake.org/cmake/help/latest/guide/tutorial/Adding%20a%20Library.html#exercise-2-adding-an-option
+- external swift library (package)
+- external C library (like an SDK)
+- external C library - system
+- list(APPEND ...) for Swift args? https://cmake.org/cmake/help/latest/command/list.html
+- read https://llvm.org/docs/CMake.html
