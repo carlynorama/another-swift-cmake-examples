@@ -1,7 +1,11 @@
-- probably shouldn't be using the name cmath
+- [x] probably shouldn't be using the name cmath
+    - [x] name changed to mycmath (also not great)
+    - [x] recompile existing 2 examples (2 of 2)
 - example compile def: https://cmake.org/cmake/help/latest/guide/tutorial/Adding%20a%20Library.html#exercise-2-adding-an-option
-- external swift library (package)
-- external C library (like an SDK)
-- external C library - system
+- c target: swift library
+- c target: external swift library
+- swift target: external swift library (package)
+- swift target: external C library (like an SDK)
+- swift target: external C library - system
 - list(APPEND ...) for Swift args? https://cmake.org/cmake/help/latest/command/list.html
 - read https://llvm.org/docs/CMake.html

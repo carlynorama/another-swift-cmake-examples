@@ -16,6 +16,13 @@
 - https://github.com/swiftlang/swift-package-manager/blob/main/CMakeLists.txt
 
 
+### Misc Other Reading
+- https://crascit.com/2016/01/31/enhanced-source-file-handling-with-target_sources/
+- https://dominikberner.ch/cmake-find-library/
+- https://runebook.dev/en/articles/cmake/command/add_subdirectory
+- https://www.selectiveintellect.net/blog/2016/7/29/using-cmake-to-add-third-party-libraries-to-your-project-1
+
+
 ## Recommended Order
 
 - SwiftOnly/SingleFile
