@@ -1,0 +1,4 @@
+module BackingC {
+    header "cmath.h"
+    export *
+}
