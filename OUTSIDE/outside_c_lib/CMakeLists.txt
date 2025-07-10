@@ -1,1 +1,1 @@
-add_library(BackingC cmath.c)
+add_library(BackingC mycmath.c)
