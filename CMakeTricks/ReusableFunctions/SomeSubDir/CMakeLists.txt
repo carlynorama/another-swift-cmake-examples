@@ -1,6 +1,8 @@
 simple(SIMPLE_MESSAGE Foo Bar)
-message("Output: ${SIMPLE_MESSAGE}")
+message("Output in Subdir Post simple: ${SIMPLE_MESSAGE}")
 
+simple_two(ANOTHER_SIMPLE_MESSAGE foooootastic barlicious)
+message("Output in Subdir Post simple_two:: ${ANOTHER_SIMPLE_MESSAGE}")
 
 complex(SINGLE ONE_VALUE value MULTI_VALUES some other values)
 # COMPLEX_PREFIX_SINGLE = TRUE

@@ -1,6 +1,9 @@
 # https://cliutils.gitlab.io/modern-cmake/chapters/basics/functions.html
 cmake_minimum_required(VERSION 4.0)
 
+project(DummyProject)
+
+include(MyReusable.cmake)
 
 function(SIMPLE REQUIRED_ARG)
     message(STATUS "Simple arguments: ${REQUIRED_ARG}, followed by ${ARGN}")
