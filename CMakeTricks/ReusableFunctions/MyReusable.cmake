@@ -5,3 +5,6 @@ function(SIMPLE_TWO REQUIRED_ARG)
     set(${REQUIRED_ARG} "Message From SIMPLE_TWO" PARENT_SCOPE)
     message(("simple_two ra print: ${REQUIRED_ARG}"))
 endfunction()
+
+
+# Macros are for side effects

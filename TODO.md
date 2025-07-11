@@ -9,3 +9,5 @@
 - swift target: external C library - system
 - list(APPEND ...) for Swift args? https://cmake.org/cmake/help/latest/command/list.html
 - read https://llvm.org/docs/CMake.html
+- https://stackoverflow.com/questions/67385282/cmake-set-compile-options-and-compile-features-per-project
+    - https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html
