@@ -31,6 +31,7 @@
 - https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
 - https://www.f-ax.de/dev/2020/10/07/cmake-config-package.html
 - https://docs.salome-platform.org/latest/dev/cmake/html/config.html
+- https://devblogs.microsoft.com/cppblog/cmake-presets-integration-in-visual-studio-and-visual-studio-code/
 
 ### Misc Video
 - https://www.youtube.com/watch?v=eC9-iRN2b04 CppCon 2017: Mathieu Ropert “Using Modern CMake Patterns to Enforce a Good Modular Design”
