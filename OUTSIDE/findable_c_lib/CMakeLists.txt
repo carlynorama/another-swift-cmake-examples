@@ -38,7 +38,7 @@ install(TARGETS ${LIBRARY_TARGET_NAME}
 )
 
 # move the modulemap and all the needed headers
-install(FILES ${LIBRARY_TARGET_NAME}.h 
+install(FILES mycmath.h 
               module.modulemap 
         DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
 

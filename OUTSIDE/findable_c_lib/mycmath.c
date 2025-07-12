@@ -1,4 +1,4 @@
-#include "MyFancyMath.h"
+#include "mycmath.h"
 
 int my_sub(int a, int b) {
     return a-b;
