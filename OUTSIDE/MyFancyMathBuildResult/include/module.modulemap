@@ -1,0 +1,4 @@
+module MyFancyMath {
+    header "MyFancyMath.h"
+    export *
+}
