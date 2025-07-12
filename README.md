@@ -45,6 +45,8 @@
 
 - SwiftOnly/SingleFile
 - SwiftOnly/WithLocalFile
-- CInterop/MixedFilesSwiftTarget
+- CInterop/MixedFilesSwiftTarget-BH
+- CInterop/CAsModuleSwiftTarget
+- CInterop/ 
 
 

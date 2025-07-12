@@ -7,12 +7,14 @@
 - [-] findable C library
 - [-] c target: local swift library
 
+
 - c target: swift as o file (custom command)
 - c target: external swift library
 - findable swift library 
 - swift target: external swift library (findable package)
 - swift target: external C library (like an SDK)
 - swift target: external C library - system
+- c <-> swift ping-pong like existing C++ example?
 
 - [x] probably shouldn't be using the name cmath
     - [x] name changed to mycmath (also not great)
