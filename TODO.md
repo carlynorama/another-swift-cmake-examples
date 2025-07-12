@@ -7,7 +7,7 @@
 - [-] findable C library
 - [-] c target: local swift library
 
-
+- swift as o file (custom command)
 - c target: external swift library
 - findable swift library 
 - swift target: external swift library (findable package)
