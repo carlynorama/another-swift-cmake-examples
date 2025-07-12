@@ -9,13 +9,13 @@
 
 
 - c target: swift as o file (custom command)
-- c target: external swift library
+    - similar to a cross compile: https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html
 - findable swift library 
 - swift target: external swift library (findable package)
 - swift target: external C library (like an SDK)
 - swift target: external C library - system
 - c <-> swift ping-pong like existing C++ example?
-- explicit cross compile? https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html
+
 
 - [x] probably shouldn't be using the name cmath
     - [x] name changed to mycmath (also not great)
@@ -29,3 +29,13 @@
     - https://stackoverflow.com/questions/67385282/cmake-set-compile-options-and-compile-features-per-project
 - build script aspirations
     - https://github.com/swiftlang/swift-docker/blob/main/swift-ci/sdks/static-linux/scripts/build.sh
+    - https://github.com/swiftlang/llvm-project/blob/43e0675c1d92eadc36b668c86d02ab5c567e60f0/libcxx/utils/ci/apple-install-libcxx.sh#L130
+- read WHOLE PAGE
+    - https://github.com/swiftlang/swift/blob/2211d9fcd7ec99b2eb4b6a89b017424a57ce2ea6/Runtimes/Core/Readme.md?plain=1#L25
+    - https://github.com/swiftlang/swift-testing/blob/d2a238d4659792e3ce969b1466d05897e5f219ae/CONTRIBUTING.md?plain=1#L130
+    - https://forums.swift.org/t/how-to-use-swiftc-with-a-static-toolchain-in-cmake/74266/8
+
+
+
+- Handy Github Searches
+    - https://github.com/search?q=org%3Aswiftlang%20GNUInstallDirs&type=code
