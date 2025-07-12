@@ -1,5 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
+// #include "my_manual_header.h"
+
+void say_hello();
 
 int main(int argc, char* argv[])
 {
@@ -13,6 +16,7 @@ int main(int argc, char* argv[])
         sum = sum + atoi(argv[i]);
     }
     printf("Sum of %d numbers is : %d\n", argc - 1, sum);
-  
+    say_hello();
+
     return 0;
 }
