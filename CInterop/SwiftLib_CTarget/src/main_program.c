@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
-// #include "my_manual_header.h"
+#include "MySwiftMath-Swift.h"
 
-void say_hello();
+// example shows a generated header, but you can manually add defs and it works
+// void say_hello();
 
 int main(int argc, char* argv[])
 {
