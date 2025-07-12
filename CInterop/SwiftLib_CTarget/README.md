@@ -6,7 +6,9 @@ Resources
 - https://forums.swift.org/t/is-there-a-way-to-emit-c-c-header/71621/3
 
 
-WARNING!! Must build twice to generate the header. 
+WARNING!! if you remove the `-j 1` from the ninja build command in the build script,  you must build twice to generate the header. Ninja will go full bore on concurrency and fail to generate the header before starting on main. 
+- https://cmake.org/cmake/help/latest/command/add_dependencies.html
+
 
 The hand compile version:
 

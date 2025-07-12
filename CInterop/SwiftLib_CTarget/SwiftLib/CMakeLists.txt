@@ -1,4 +1,4 @@
-add_library(${EXAMPLE_LIBRARY_NAME} MySwiftMath.swift)
+add_library(${EXAMPLE_LIBRARY_NAME} STATIC MySwiftMath.swift)
 
 # Leave in get .o file, leave out get dynlib
 set(CMAKE_Swift_FLAGS "${CMAKE_Swift_FLAGS} -parse-as-library ")
