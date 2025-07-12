@@ -5,23 +5,18 @@ cmake_minimum_required(VERSION 4.0)
 set(PROJECT_NAME $ENV{PROJECT_NAME})
 set(MAIN_TARGET_NAME ${PROJECT_NAME})
 
-set(OUTSIDE_LIBS_LOCATION ../../OUTSIDE)
-
 project(${PROJECT_NAME} LANGUAGES C Swift)
 
-find_library(MY_C_CODE REQUIRED
-    NAMES MyFancyMath
-    PATH "${OUTSIDE_LIBS_LOCATION}/findable_c_lib"
-)
+# exported in the libs install script
+set(INSTALL_PREFIX $ENV{TEST_INSTALL_DIR})
+message("${INSTALL_PREFIX}")
 
-
-
-add_executable(${MAIN_TARGET_NAME} Hello.swift SwiftMath.swift)
-target_link_libraries(${MAIN_TARGET_NAME} PUBLIC ${MY_C_CODE})
-
-## where are the headers for -I 
-target_include_directories(${MAIN_TARGET_NAME} PUBLIC
-                          "${OUTSIDE_LIBS_LOCATION}/findable_c_lib")
+## Finding The Fancy Lib
+ include(GNUInstallDirs)
+ include(${INSTALL_PREFIX}/${CMAKE_INSTALL_LIBDIR}/cmake/MyFancyMath/MyFancyMathTargets.cmake)
+ add_executable(${MAIN_TARGET_NAME} Hello.swift SwiftMath.swift)
+ target_link_libraries(${MAIN_TARGET_NAME} PRIVATE  MyFancyMath::MyFancyMath)
+##
 
 ## when using struct with an @main
 set(CMAKE_Swift_FLAGS "${CMAKE_Swift_FLAGS} -parse-as-library") 

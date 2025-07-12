@@ -4,8 +4,8 @@
 - [x] swift target, c local library module map
 - [x] swift target, external C library source code
         - as add subdir to external directory
+- [x] c target: local swift library
 - [-] findable C library
-- [-] c target: local swift library
 
 
 - c target: swift as o file (custom command)
@@ -26,3 +26,5 @@
 - Everything should be JSON anyway?
     - https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html
     - https://stackoverflow.com/questions/67385282/cmake-set-compile-options-and-compile-features-per-project
+- build script aspirations
+    - https://github.com/swiftlang/swift-docker/blob/main/swift-ci/sdks/static-linux/scripts/build.sh

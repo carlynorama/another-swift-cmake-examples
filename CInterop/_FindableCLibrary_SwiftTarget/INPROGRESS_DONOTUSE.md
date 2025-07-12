@@ -1,0 +1,1 @@
+https://discourse.cmake.org/t/transitioning-to-namespace-in-cmakelists-txt/2744/2
