@@ -5,7 +5,7 @@
 - [x] swift target, external C library source code
         - as add subdir to external directory
 - [x] c target: local swift library
-- [-] findable C library
+- [x] findable C library
 
 
 - c target: swift as o file (custom command)
@@ -15,6 +15,7 @@
 - swift target: external C library (like an SDK)
 - swift target: external C library - system
 - c <-> swift ping-pong like existing C++ example?
+- explicit cross compile? https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html
 
 - [x] probably shouldn't be using the name cmath
     - [x] name changed to mycmath (also not great)
