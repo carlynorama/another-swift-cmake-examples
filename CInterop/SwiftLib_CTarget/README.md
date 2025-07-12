@@ -6,6 +6,8 @@ Resources
 - https://forums.swift.org/t/is-there-a-way-to-emit-c-c-header/71621/3
 
 
+WARNING!! Must build twice to generate the header. 
+
 The hand compile version:
 
 ```bash
