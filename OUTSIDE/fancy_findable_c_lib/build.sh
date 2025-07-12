@@ -11,5 +11,5 @@ mkdir -p $BUILDROOT
 cd $BUILDROOT
 cmake ../
 cmake --build .
-cmake --install . --prefix $TEST_INSTALL_DIR
+cmake --install . --prefix $TEST_INSTALL_DIR/MyFancyMath
 cd ..
