@@ -6,11 +6,14 @@
         - as add subdir to external directory
 - [x] c target: local swift library
 - [x] findable C library
+- [-] findable swift library 
+    - https://github.com/swiftlang/swift-cmake-examples/blob/b54c92af747894be710337410c371d04dc2cf485/3_bidirectional_cxx_interop/cmake/modules/AddSwift.cmake#L65
+    - https://github.com/swiftlang/swift/blob/2211d9fcd7ec99b2eb4b6a89b017424a57ce2ea6/Runtimes/Core/cmake/modules/EmitSwiftInterface.cmake#L4
 
 
 - c target: swift as o file (custom command)
     - similar to a cross compile: https://cmake.org/cmake/help/book/mastering-cmake/chapter/Cross%20Compiling%20With%20CMake.html
-- findable swift library 
+
 - swift target: external swift library (findable package)
 - swift target: external C library (like an SDK)
 - swift target: external C library - system
