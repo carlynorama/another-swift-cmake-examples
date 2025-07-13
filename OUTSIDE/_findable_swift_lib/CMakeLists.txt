@@ -130,7 +130,7 @@ write_basic_package_version_file(
 # built on the host platform and then the project that is being cross-compiled 
 # for another platform may load it.
  
-export(EXPORT ${LIBRARY_TARGET_NAME}Targets
-       FILE "${CMAKE_CURRENT_BINARY_DIR}/cmake/${LIBRARY_TARGET_NAME}Targets.cmake"
-       NAMESPACE ${LIBRARY_TARGET_NAME}::
-)
+# export(EXPORT ${LIBRARY_TARGET_NAME}Targets
+#        FILE "${CMAKE_CURRENT_BINARY_DIR}/cmake/${LIBRARY_TARGET_NAME}Targets.cmake"
+#        NAMESPACE ${LIBRARY_TARGET_NAME}::
+# )

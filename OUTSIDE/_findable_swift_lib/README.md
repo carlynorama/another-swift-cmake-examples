@@ -20,3 +20,7 @@ TROUBLE On first compile from /opt/homebrew/Cellar/cmake/4.0.3/share/cmake/Modul
       "Please enable at least one language before including GNUInstallDirs.")
   endif()
   ```
+
+
+  - https://github.com/swiftlang/swift/blob/2211d9fcd7ec99b2eb4b6a89b017424a57ce2ea6/Runtimes/Core/CMakeLists.txt#L237
+  - https://github.com/swiftlang/swift-cmark/blob/b97d09472e847a416629f026eceae0e2afcfad65/CMakeLists.txt#L113
